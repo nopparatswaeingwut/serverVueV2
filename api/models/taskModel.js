@@ -18,7 +18,7 @@ const taskSchema = new Schema(
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     }
-    
+    //สร้างcollection
   },
   { collection: 'task' }
 );
