@@ -1,9 +1,4 @@
-// Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js
-// It manages relationships between data, provides schema validation, 
-// and is used to translate between objects in code and the representation of those objects in MongoDB.
 const mongoose = require('mongoose');
-// Mongoose model provides an interface to the database 
-// for creating, querying, updating, deleting records, etc.
 const task = mongoose.model('task');
 
 exports.list_all_tasks = (req, res) => {
