@@ -2,19 +2,19 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 const taskSchema = new Schema(
   {
-    task1: {
+    Name: {
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     },
-    task2: {
+    details: {
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     },
-    task3: {
+    age: {
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     },
-    task4: {
+    hobby: {
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     }
