@@ -1,17 +1,24 @@
 const mongoose = require('mongoose');
-// A Mongoose schema defines the structure of the document, 
-// default values, validators, etc.
 const { Schema } = mongoose;
 const taskSchema = new Schema(
   {
     task1: {
       type: String,
-      required: 'task1 cannot be blank'
+      required: 'ไม่สามารถเว้นว่างได้'
     },
     task2: {
       type: String,
-      required: 'task2  cannot be blank'
+      required: 'ไม่สามารถเว้นว่างได้'
+    },
+    task3: {
+      type: String,
+      required: 'ไม่สามารถเว้นว่างได้'
+    },
+    task4: {
+      type: String,
+      required: 'ไม่สามารถเว้นว่างได้'
     }
+    
   },
   { collection: 'task' }
 );
