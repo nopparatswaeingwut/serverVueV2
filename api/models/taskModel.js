@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 const taskSchema = new Schema(
   {
-    Name: {
+    name: {
       type: String,
       required: 'ไม่สามารถเว้นว่างได้'
     },
